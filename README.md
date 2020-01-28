@@ -19,10 +19,56 @@ run the command `make` at the root of the repo then, 2 programs appears (asm in 
 
 # asm output
 
+![Screenshot](ressources/img/asm.png)
+
 # corewar output
+
+- wrong input
+
+- without verbose and good input (without description of the batlle)
+![Screenshot](ressources/img/corewar.png)
+
+- with verbose and good input (with description of the battle)
+![Screenshot](ressources/img/corewar3.png)
 
 # corewar graphic
 
-# script
+it is possible to run the program corewar in graphic mode. To do this thing, you just need to add the option `-g` after the call of corewar. Like this `./corewar -g`
 
+you will appear a windows on your computer. Then you will be able to see the battle and the arena round by round.
+
+The control of corewar in graphic mode :
+- `Space`	--> Play/Pause
+- `+`		--> speed up
+- `-`		--> speed down
+- esc		--> quit
+- mouse		--> see detail
+- pad enter --> manual speed when the game is pause
+
+![Screenshot](ressources/img/corewar4.png)
+
+![Screenshot](ressources/img/corewar5.png)
+
+![Screenshot](ressources/img/corewar6.png)
+
+![Screenshot](ressources/img/corewar7.png)
+
+## script
+
+In this project you have a folder name scripts that you can use for testing the program
+- asm_test_diff 	--> use to test the asm by comparing with the original asm
+- asm_test_leaks	--> use to test leaks of the asm
+- corewwar_test		--> run random battle until a different appear between our corewar and original corewar
+- vm_test_one_champ	--> allow you to test a champ in solo.
+- test_all			--> run all champs.cor contents in the folder ressources/cor in solo
+
+# output
+
+![Screenshot](ressources/img/script1.png)
+
+![Screenshot](ressources/img/script2.png)
+
+![Screenshot](ressources/img/script3.png)
+
+![Screenshot](ressources/img/script4.png)
 
